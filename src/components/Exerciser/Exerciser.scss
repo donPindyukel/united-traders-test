@@ -1,0 +1,12 @@
+@import '../../styles/constants';
+@import '../../styles/mixins';
+
+.exerciser {
+  text-align: left;
+  .finish-button {
+    @include button;
+  }
+  .test-phrase-wrap {
+    margin: 20px 0;
+  }
+}

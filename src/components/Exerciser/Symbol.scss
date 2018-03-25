@@ -1,0 +1,18 @@
+@import '../../styles/constants';
+
+.symbol {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid $color__gray-51;
+  p {
+    text-align: center;
+    line-height: 29px;
+  }
+  .gray-marker {
+    background: $color__gray;
+  }
+  .red-marker {
+    background: $color__red;
+  }
+}

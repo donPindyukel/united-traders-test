@@ -1,0 +1,1 @@
+export { generateRandomText } from './generateRandomText';

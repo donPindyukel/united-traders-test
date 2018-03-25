@@ -1,0 +1,10 @@
+@import '../../styles/constants';
+@import '../../styles/mixins';
+
+.stats {
+  text-align: left;
+  .button-start-again {
+    margin-top: 20px;
+    @include button;
+  }
+}
